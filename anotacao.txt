@@ -1,0 +1,2 @@
+cd ".\Loja Virtual"
+npm run dev
