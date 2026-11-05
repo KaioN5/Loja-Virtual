@@ -82,13 +82,13 @@ const catalogo = [
 
 for (const produtoCatalogo of catalogo) {
 
-    const cartaoProduto = <div class ="" id="cartao-produto-${produtoCatalogo.id}">
+    const cartaoProduto = <div class ="border-t-4 border-indigo-500 w-48 m-2" id="cartao-produto-${produtoCatalogo.id}">
 <img
   src="./assets/img/${produtoCatalogo.imagem}"
   alt="Produto 1 do Magazine Luiza Hashtag."
   style="height: 300px;"
 />
-<p>$${produtoCatalogo.marca}</p>
+<p class="marca">$${produtoCatalogo.marca}</p>
 <p>$${produtoCatalogo.nome}</p>
 <p>$${produtoCatalogo.preco}</p>
 <button>Adicionar</button>
